@@ -1,0 +1,71 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title></title>
+  </head>
+  <body id="cuerpo">
+    <div class="titulo">
+        <h1 id="title">Titulo</h1>
+        <p id="description">Pequeña explicación</p>
+    </div>
+      <div id="formulario">
+          <form id="survey-form" action="index.html" method="post">
+            <div class="form-control-lg ">
+              <label for="name" id="name-label">Ingrese su nombre</label>
+                <input type="text" name="" value="" id="name" placeholder="Ingrese su nombre" required>
+            </div>
+            <div class="form-control-lg">
+              <label for="email" id="email-label">Ingrese su correo electronico</label>
+              <input type="email" name="" value="" id="email" placeholder="Ingrese su correo " required>
+            </div>
+            <div class="form-control-lg">
+              <label for="num" id="number-label">Ingrese su numero telefonico</label>
+              <input type= "number" name="" value="" id="number" placeholder="Ingrese su numero" min="1" max="15" required>
+            </div>
+            <div class="" id="dropdown">
+              <select class="custom-select" name=""  >
+                <option value="" disabled selected>Desplegar menú</option>
+                <option value="1">UNO</option>
+                <option value="2">DOS</option>
+                <option value="3">TRES</option>
+              </select>
+            </div>
+            <label for="botones"> Botones
+             <div class="radio-btn" name="botones">
+                <input name="botones" type="radio" value="1">
+                <input name="botones" type="radio" value="2">
+                <input name="botones" type="radio" value="3">
+              </div>
+            </label>
+            <div class="checkbox">
+              <div class="">
+                <label for="cb1"><input type="checkbox" name="" value="jbdfpiahsdfhbjapis" id="cb1"> Checkbox 1</label>
+              </div>
+              <div class="">
+                <label for="cb2"><input type="checkbox" name="" value="jbdfpiahsdfhbjapis" id="cb2"> Checkbox 2</label>
+              </div>
+              <div class="">
+                <label for="cb3"><input type="checkbox" name="" value="jbdfpiahsdfhbjapis" id="cb3"> Checkbox 3</label>
+              </div>
+              <div class="">
+                <label for="cb4"><input type="checkbox" name="" value="jbdfpiahsdfhbjapis" id="cb4"> Checkbox 4</label>
+              </div>
+
+            </div>
+            <div class="texto">
+                <h3>Ingrese su sugerencia</h2>
+                <textarea name="" rows="8" cols="80" placeholder="Ingrese su texto aquí"></textarea>
+            </div>
+            <div class="" >
+              <button id="submit" type="submit" name="button" class="btn btn-block btn-success">Enviar</button>
+            </div>
+          </form>
+      </div>
+
+  </body>
+</html>

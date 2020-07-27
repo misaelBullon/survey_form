@@ -1,0 +1,57 @@
+#cuerpo{
+    padding: 20px;
+    margin:20px;
+    background-color: violet;
+  }
+  .titulo{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: gray;
+  }
+  
+  #formulario{
+    display:block;
+    /*justify-content: space-around;*/
+    margin: 10px;
+    padding: 5px;;
+    display: block;
+    text-align: left;
+    background-color: lightblue;
+    color: yellow;
+  }
+  .form-control-lg{
+    margin: 10px;
+    background-color: blue;
+  
+  }
+  .btn-block{
+    margin: 10px;
+    padding: 10px;
+  }
+  #submit{
+    margin: 10px;
+    padding: 10px;
+    background-color: orange;
+    text-align: center;
+  }
+  #dropdown{
+    display: flex;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+  }
+  .custom-select{
+    text-align: center;
+  }
+  .checkbox{
+    padding: 10px;
+    background-color: violet;
+    display: block;
+    text-align: left;
+  }
+  .texto{
+    margin: 10px;
+    padding: 10px;
+  }
+  
